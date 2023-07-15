@@ -1,1 +1,1 @@
-# rsschool-library
+https://MaximVolohov.github.io/rsschool-library/
