@@ -40,15 +40,15 @@
 					a large number of books and a cozy coffee shop inside</p>
 				<div class="layout-3-column">
 					<div class="carousel">
-						<div class="images-items">
-							<img class="images-items__item" src="#" alt="woman-in-library">
-							<img class="images-items__item" src="#" alt="statues">
-							<img class="images-items__item" src="#" alt="library">
+						<div class="carousel__content">
+							<img class="carousel__content-item" src="#" alt="woman-in-library">
+							<img class="carousel__content-item" src="#" alt="statues">
+							<img class="carousel__content-item" src="#" alt="library">
 						</div>
 						<div class="carousel__pagination">
-							<span class="pagination-item selected"></span>
-							<span class="pagination-item"></span>
-							<span class="pagination-item"></span>
+							<span class="carousel__pagination-item_selected"></span>
+							<span class="carousel__pagination-item"></span>
+							<span class="carousel__pagination-item"></span>
 						</div>
 					</div>
 				</div>
@@ -56,7 +56,137 @@
 		</section>
 		<section class="favorites">
 			<div class="wrapper">
-
+				<h2 class="section-title">Favorites</h2>
+				<div class="radio-seasons">
+					<p class="radio-seasons__title">Pick favorites of season</p>
+					<div class="radio-seasons__content">
+						<a class="radio-seasons__content-item" href="#"><span class="radio_selected"></span>Winter</a>
+						<a class="radio-seasons__content-item" href="#"><span class="radio"></span>Spring</a>
+						<a class="radio-seasons__content-item" href="#"><span class="radio"></span>Summer</a>
+						<a class="radio-seasons__content-item" href="#"><span class="radio"></span>Autumn</a>
+					</div>
+				</div>
+				<!-- 2x2 -->
+				<div class="layout-2-column">
+					<div class="season-book">
+						<h3 class="season-book__title">Staff Picks</h3>
+						<h4 class="season-book__name">The Book Eaters By Sunyi Dean</h4>
+						<p class="season-book__description">An unusual sci-fi story about a book
+							eater woman who tries desperately to save her dangerous mind-eater son
+							from tradition and certain death. Complete with dysfunctional family
+							values, light Sapphic romance, and a strong, complex protagonist.
+							Not for the faint of heart.</p>
+						<a class="button" href="#">Buy</a>
+						<img class="season-book__image" src="#" alt="The Book Eaters">
+					</div>
+					<div class="season-book">
+						<h3 class="season-book__title">Staff Picks</h3>
+						<h4 class="season-book__name">Cackle By Rachel Harrison</h4>
+						<p class="season-book__description">Are your Halloween movies of choice
+							The Witches of Eastwick and Practical Magic? Look no further than
+							here - where a woman recovering from a breakup moves to a quaint
+							town in upstate New York and befriends a beautiful witch.</p>
+						<a class="button" href="#">Buy</a>
+						<img class="season-book__image" src="#" alt="Cackle">
+					</div>
+					<div class="season-book">
+						<h3 class="season-book__title">Staff Picks</h3>
+						<h4 class="season-book__name">Dante: Poet of the Secular World By Erich Auerbach</h4>
+						<p class="season-book__description">Auerbach's engaging book places the
+							'Comedy' within the tradition of epic, tragedy, and philosophy in general,
+							arguing for Dante's uniqueness as one who raised the individual and
+							his drama of soul into something of divine significance—an inspired
+							introduction to Dante's main themes.</p>
+						<a class="button" href="#">Buy</a>
+						<img class="season-book__image" src="#" alt="Dante: Poet of the Secular World">
+					</div>
+					<div class="season-book">
+						<h3 class="season-book__title">Staff Picks</h3>
+						<h4 class="season-book__name">The Last Queen By Clive Irving</h4>
+						<p class="season-book__description">A timely and revelatory new biography of
+							Queen Elizabeth (and her family) exploring how the Windsors have evolved
+							and thrived as the modern world has changed around them.</p>
+						<a class="button button_own" href="#">Own</a>
+						<img class="season-book__image" src="#" alt="The Last Queen">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="coffe-shop">
+			<div class="wrapper">
+				<h2 class="section-title">Coffee shop</h2>
+				<p class="section-description">In our library, we have of cozy coffee shop,
+					welcoming in customers with frothy cappuccinos and friendly conversation.
+					you can get a favorite book and read in coffee shop. Our barista to cook
+					you best coffee, and also you can try desserts from bakery.</p>
+				<div class="layout-2-column">
+					<div class="menu-section">
+						<h2 class="section-title section-title_no-underline">Coffee & Tea</h2>
+						<div class="menu-section-position">
+							<h3 class="menu-section-position__name">Cold Brew Coffee</h3>
+							<span class="menu-section-position__line"></span>
+							<p class="menu-section-position__price">$3</p>
+						</div>
+						<div class="menu-section-position">
+							<h3 class="menu-section-position__name">French Press Pot</h3>
+							<span class="menu-section-position__line"></span>
+							<p class="menu-section-position__price">$5</p>
+						</div>
+						<div class="menu-section-position">
+							<h3 class="menu-section-position__name">Espresso</h3>
+							<span class="menu-section-position__line"></span>
+							<p class="menu-section-position__price">$2</p>
+						</div>
+						<div class="menu-section-position">
+							<h3 class="menu-section-position__name">Cappuccino</h3>
+							<span class="menu-section-position__line"></span>
+							<p class="menu-section-position__price">$4</p>
+						</div>
+						<div class="menu-section-position">
+							<h3 class="menu-section-position__name">Hot tea</h3>
+							<span class="menu-section-position__line"></span>
+							<p class="menu-section-position__price">$2</p>
+						</div>
+						<div class="menu-section-position">
+							<h3 class="menu-section-position__name">Cold tea</h3>
+							<span class="menu-section-position__line"></span>
+							<p class="menu-section-position__price">$2</p>
+						</div>
+					</div>
+					<div class="menu-section">
+						<h2 class="section-title section-title_no-underline">Desserts & Cakes</h2>
+						<div class="menu-section-position">
+							<h3 class="menu-section-position__name">Forest Gateau</h3>
+							<span class="menu-section-position__line"></span>
+							<p class="menu-section-position__price">$16</p>
+						</div>
+						<div class="menu-section-position">
+							<h3 class="menu-section-position__name">Blue Moon</h3>
+							<span class="menu-section-position__line"></span>
+							<p class="menu-section-position__price">$16</p>
+						</div>
+						<div class="menu-section-position">
+							<h3 class="menu-section-position__name">Truffle Cake</h3>
+							<span class="menu-section-position__line"></span>
+							<p class="menu-section-position__price">$15</p>
+						</div>
+						<div class="menu-section-position">
+							<h3 class="menu-section-position__name">Chocolate Cake</h3>
+							<span class="menu-section-position__line"></span>
+							<p class="menu-section-position__price">$18</p>
+						</div>
+						<div class="menu-section-position">
+							<h3 class="menu-section-position__name">Poet's Dream Cake</h3>
+							<span class="menu-section-position__line"></span>
+							<p class="menu-section-position__price">$16</p>
+						</div>
+						<div class="menu-section-position">
+							<h3 class="menu-section-position__name">Pineapple Cake</h3>
+							<span class="menu-section-position__line"></span>
+							<p class="menu-section-position__price">$14</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 	</main>
