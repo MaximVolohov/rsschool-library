@@ -1,36 +1,46 @@
 html {
 	font-size: 10px;
 	line-height: 10px;
-	letter-spacing: 10px;
+	letter-spacing: 1px;
 }
 
 body {
 	width: $content-width;
+
 	@extend %family_main;
-	@include font($size: 1.6rem, $height: 4rem, $letter: 0.2rem);
+	@include font($size: 1.6rem, $height: 4rem);
+
 	margin: auto;
 }
 
 h1 {
 	@extend %family_second;
-	@include font($size: 4rem, $height: 5rem, $letter: 0.3rem);
+	@include font($size: 4rem, $height: 5rem);
+	letter-spacing: 3px;
+
 	text-align: center;
 	text-transform: uppercase;
 }
 
 h2 {
 	@extend %family_second;
-	@include font($size: 4rem, $height: 4rem, $letter: 0.2rem);
+	@include font($size: 4rem, $height: 4rem);
+
+	letter-spacing: 2px;
 	text-transform: capitalize;
 }
 
 h3 {
 	@extend %family_second;
-	@include font($size: 4rem, $height: 4rem, $letter: 0.2rem);
+	@include font($size: 4rem, $height: 4rem);
+
+	letter-spacing: 2px;
 	text-transform: capitalize;
 }
 
 h4 {
-	@include font($size: 1.5rem, $height: 4rem, $letter: 0.2rem, $weight: 700);
+	@include font($size: 1.5rem, $height: 4rem, $weight: 700);
+	
+	letter-spacing: 2px;
 	text-transform: uppercase;
 }

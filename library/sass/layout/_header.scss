@@ -2,3 +2,21 @@
 	background: $color-header-footer-background;
 	padding: 20px 0;
 }
+
+.header__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__main-name {
+	color: $color-main-background;
+}
+
+.header__nav {
+	color: $color-main-background;
+}
+
+.header__icon-profile {
+
+}
