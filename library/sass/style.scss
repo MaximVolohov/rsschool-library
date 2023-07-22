@@ -1,3 +1,15 @@
+// import constants, mixins, placeholders
 @import "./abstract/constants";
+@import "./abstract/placeholders";
+@import "./abstract/mixins";
+
+// import base blocks
 @import "./base/base";
+
+// import layout
 @import "./layout/wrapper";
+@import "./layout/header";
+@import "./layout/footer";
+
+// import components, sections
+@import "./component/welcome";

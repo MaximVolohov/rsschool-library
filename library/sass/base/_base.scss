@@ -1,47 +1,36 @@
 html {
 	font-size: 10px;
+	line-height: 10px;
+	letter-spacing: 10px;
 }
 
 body {
-	font-size: 1.6rem;
-	font-family: 'Inter', sans-serif;
+	width: $content-width;
+	@extend %family_main;
+	@include font($size: 1.6rem, $height: 4rem, $letter: 0.2rem);
+	margin: auto;
 }
 
 h1 {
+	@extend %family_second;
+	@include font($size: 4rem, $height: 5rem, $letter: 0.3rem);
 	text-align: center;
-	font-family: 'Forum', cursive;
-	font-size: 4rem;
-	font-weight: 400;
-	line-height: 50px; /* 125% */
-	letter-spacing: 3px;
 	text-transform: uppercase;
 }
 
 h2 {
-	font-family: 'Forum', cursive;
-	font-size: 40px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 40px; /* 100% */
-	letter-spacing: 2px;
+	@extend %family_second;
+	@include font($size: 4rem, $height: 4rem, $letter: 0.2rem);
 	text-transform: capitalize;
 }
 
 h3 {
-	font-family: 'Forum', cursive;
-	font-size: 40px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 40px; /* 100% */
-	letter-spacing: 2px;
+	@extend %family_second;
+	@include font($size: 4rem, $height: 4rem, $letter: 0.2rem);
 	text-transform: capitalize;
 }
 
 h4 {
-	font-size: 15px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 40px; /* 266.667% */
-	letter-spacing: 2px;
+	@include font($size: 1.5rem, $height: 4rem, $letter: 0.2rem, $weight: 700);
 	text-transform: uppercase;
 }
