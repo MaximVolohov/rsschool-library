@@ -6,6 +6,9 @@
 // import base blocks
 @import "./base/base";
 @import "./base/nav";
+@import "./base/icon";
+@import "./base/carousel";
+@import "./base/sections";
 
 // import layout
 @import "./layout/wrapper";
@@ -14,3 +17,4 @@
 
 // import components, sections
 @import "./component/welcome";
+@import "./component/about";

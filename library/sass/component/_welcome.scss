@@ -1,0 +1,22 @@
+.welcome {
+	width: 1440px;
+	height: 600px;
+	background: url("../img/welcome/welcome.jpg"), lightgray 50% / cover no-repeat;
+}
+
+.welcome__wrapper {
+	display: flex;
+	justify-content: left;
+}
+
+.welcome__content {
+	margin-top: 220px;
+	padding: 35px 40px;
+
+	background-color: $color-header-footer-background;
+	color: $color-header-footer-text;
+
+	h1 {
+		width: 520px;
+	}
+}

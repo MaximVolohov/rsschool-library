@@ -10,13 +10,34 @@
 }
 
 .header__main-name {
-	color: $color-main-background;
+	padding: 0px 20px;
+
+	@extend %family_second;
+	@include font($size: 3rem, $height: 5rem);
+	letter-spacing: 0.6px;
+
+	color: $color-header-footer-text;
+
+	&:hover {
+		@extend %transition;
+		color: $color-selected;
+	}
 }
 
 .header__nav {
-	color: $color-main-background;
+	margin-left: auto;
+
+	a {
+		color: $color-header-footer-text;
+	}
+
+	a:hover {
+		@extend %transition;
+		color: $color-selected;
+	}
 }
 
 .header__icon-profile {
-
+	display: flex;
+	padding: 0px 20px 0px 40px;
 }

@@ -1,0 +1,18 @@
+.section-title {
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.section-line {
+	width: 50px;
+	size: 1px;
+
+	color: $color-header-footer-background;
+}
+
+.section-description {
+	padding: 40px 0px 20px;
+	text-align: center;
+
+	@include font($size: 2rem, $height: 4rem);
+}
