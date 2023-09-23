@@ -1,4 +1,4 @@
-.nav__item, body {
+body {
   font-family: "Inter", sans-serif;
 }
 
@@ -20,6 +20,7 @@ body {
   width: 1440px;
   font-size: 1.6rem;
   line-height: 4rem;
+  letter-spacing: 1px;
   font-weight: 400;
   font-style: normal;
   margin: auto;
@@ -28,9 +29,9 @@ body {
 h1 {
   font-size: 4rem;
   line-height: 5rem;
+  letter-spacing: 3px;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 3px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -38,27 +39,27 @@ h1 {
 h2 {
   font-size: 4rem;
   line-height: 4rem;
+  letter-spacing: 2px;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 2px;
   text-transform: capitalize;
 }
 
 h3 {
   font-size: 4rem;
   line-height: 4rem;
+  letter-spacing: 2px;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 2px;
   text-transform: capitalize;
 }
 
 h4 {
   font-size: 1.5rem;
   line-height: 4rem;
+  letter-spacing: 2px;
   font-weight: 700;
   font-style: normal;
-  letter-spacing: 2px;
   text-transform: uppercase;
 }
 
@@ -76,14 +77,15 @@ p {
 
 .nav {
   display: flex;
-  padding-inline-start: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   gap: 30px;
 }
 
 .nav__item {
   font-size: 2rem;
   line-height: 5rem;
+  letter-spacing: 0.1px;
   font-weight: 400;
   font-style: normal;
   list-style: none;
@@ -114,12 +116,13 @@ p {
   text-align: center;
   font-size: 2rem;
   line-height: 4rem;
+  letter-spacing: 1px;
   font-weight: 400;
   font-style: normal;
 }
 
 .wrapper {
-  max-width: 1440px;
+  max-width: 1400px;
   margin: auto;
 }
 
@@ -135,12 +138,11 @@ p {
 }
 
 .header__main-name {
-  padding: 0px 20px;
   font-size: 3rem;
   line-height: 5rem;
+  letter-spacing: 0.6px;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 0.6px;
   color: #FFFFFF;
 }
 .header__main-name:hover {
@@ -159,7 +161,7 @@ p {
 
 .header__icon-profile {
   display: flex;
-  padding: 0px 20px 0px 40px;
+  padding-left: 40px;
 }
 
 .welcome {

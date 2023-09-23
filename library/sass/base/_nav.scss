@@ -1,13 +1,12 @@
 .nav {
 	display: flex;
-	padding-inline-start: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 	gap: 30px;
 }
 
 .nav__item {
-	@extend %family_main;
-	@include font($size: 2rem, $height: 5rem);
+	@include font($size: 2rem, $height: 5rem, $spacing: 0.1px);
 
 	list-style: none;
 }
