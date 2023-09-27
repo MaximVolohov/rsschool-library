@@ -63,6 +63,15 @@ h4 {
   text-transform: uppercase;
 }
 
+p {
+  font-size: 2rem;
+  line-height: 4rem;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
 a {
   text-decoration: none;
 }
@@ -85,7 +94,7 @@ p {
 .nav__item {
   font-size: 2rem;
   line-height: 5rem;
-  letter-spacing: 0.1px;
+  letter-spacing: 0px;
   font-weight: 400;
   font-style: normal;
   list-style: none;
@@ -100,30 +109,52 @@ p {
   background-image: url("../img/header/icon_profile.svg");
 }
 
+.carousel {
+  margin-top: 20px;
+}
+
+.carousel__content-item {
+  width: 450px;
+  height: 560px;
+}
+
+.carousel__pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.carousel__pagination-item {
+  display: inline-block;
+  width: 68px;
+  height: 16px;
+  vertical-align: middle;
+  background-image: url("../img/about-carousel/carousel_pagination.svg");
+}
+
 .section-title {
-  padding-bottom: 20px;
   text-align: center;
 }
 
 .section-line {
+  margin-top: 40px;
+  margin-bottom: 20px;
   width: 50px;
   size: 1px;
   color: #0C0C0E;
 }
 
 .section-description {
-  padding: 40px 0px 20px;
   text-align: center;
-  font-size: 2rem;
-  line-height: 4rem;
-  letter-spacing: 1px;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .wrapper {
   max-width: 1400px;
   margin: auto;
+}
+
+.layout-3-column {
+  display: flex;
+  justify-content: space-between;
 }
 
 .header {
@@ -161,7 +192,7 @@ p {
 
 .header__icon-profile {
   display: flex;
-  padding-left: 40px;
+  margin-left: 40px;
 }
 
 .welcome {
@@ -185,12 +216,8 @@ p {
   width: 520px;
 }
 
-.about {
-  padding-top: 20px;
-}
-
 .about__wrapper {
-  padding: 0px 20px;
+  padding: 20px 0 40px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

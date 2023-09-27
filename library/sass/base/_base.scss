@@ -41,6 +41,12 @@ h4 {
 	text-transform: uppercase;
 }
 
+p {
+	@include font($size: 2rem, $height: 4rem, $spacing: 0px);
+
+	text-align: center;
+}
+
 a {
 	text-decoration: none;
 }
